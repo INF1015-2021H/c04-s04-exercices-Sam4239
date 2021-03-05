@@ -136,8 +136,8 @@ int main() {
 	//cout << "\n\n\n";
 	//runCompanyExample();
 	//cout << "\n\n\n";
-	runFractionExample();
+	//runFractionExample();
 	//cout << "\n\n\n";
-	//runVectorExample();
+	runVectorExample();
 }
 
