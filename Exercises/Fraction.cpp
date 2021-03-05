@@ -36,6 +36,8 @@ Fraction Fraction::operator+() const {
 }
 
 Fraction Fraction::operator-() const {
+	Fraction result = *this;
+	result.numer_ = -result.numer_;
 	return {-numer_, denom_};
 }
 
